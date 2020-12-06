@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&family=Poppins&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
+
+body {
+    font-family: Jost,sans-serif;
+    margin: 0px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+/**navigation**/
+
+.navigation {
+   color: black;
+   padding: 1rem;
+   border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .sub-nav {
+    padding: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color: black;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/**nav links**/
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+/**lists**/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**header image**/
+.boss {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.boss .boss-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.boss .boss-heading {
+    text-align: center;
+    padding-top: 3rem;
+    color: black;
+}
+
+/**sections**/
+.section {
+    padding: 2rem;
+    margin: 3rem;
+}
+
+.section h1, p {
+    text-align: center;
+}
+
+.bg {
+    background: linear-gradient(90deg, #C6FFDD 0%, #cac1ad 100%);
+    box-sizing: border-box;
+    border-radius: 1rem;
+}
+
+
+/**buttons**/
+.btn-center{
+    display:flex;
+    justify-content: center;
+}
+
+.button{
+     text-decoration: none;
+    background: #3f3d56;
+    padding: 0.7rem;
+    border-radius:0.5rem;
+    margin: 1rem 0.25rem 1rem 0rem;
+    color: white;
+    
+}
+.btn-primary:hover {
+    /**background-color: #c9c6b1;**/
+    background-color: #5c5c61;
+    text-decoration: none;
+}
+.btn-secondary {
+    background: #7a858e;
+    color: black;
+}
+
+.btn-secondary:hover {
+    text-decoration: none;
+    background-color: #8f9192;
+}
+/**footer**/
+.footer {
+    color: black;
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    /**background-color: khaki;**/
+   
+}
+
+.footer-text {
+    text-align: center;
+   /** font-weight: bold; **/
+}
+
+.footer .nav-pills {
+    text-align: center;
+}
+.footer ul {
+    padding-inline-start: 0px;
+}
+
