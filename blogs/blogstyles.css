@@ -1,0 +1,6 @@
+@import url("/styles.css");
+
+.blog-div {
+    padding: 2rem 12rem;
+    text-align: justify;
+}
